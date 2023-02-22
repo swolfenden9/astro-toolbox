@@ -1,5 +1,5 @@
 ---
-import "../style/index.scss";
+import "../style/index.css";
 
 interface Props {
     href: string;
@@ -39,11 +39,9 @@ const { href, style, icon, isFilled = true, borderVisible = false, classes, ...r
 }
 </a>
 
-<style lang="scss">
-    @import "../styles/index"
-
+<style>
     .primary {
-        background-color: $primary-color-bg;
-        border-color: $primary-color-border;
+        background-color: var(--primary-color-bg);
+        border-color: var(--primary-color-border);
     }
 </style>
