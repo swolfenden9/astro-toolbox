@@ -40,8 +40,19 @@ const { href, style, icon, isFilled = true, borderVisible = false, classes, ...r
 </a>
 
 <style>
-    .primary {
-        background-color: var(--primary-color-bg);
-        border-color: var(--primary-color-border);
+    .link {
+        border-radius: 10px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .primary.filled {
+        background-color: var(--color-white);
+    }
+    .secondary.filled {
+        background-color: var(--color-black);
+    }
+    .bordered {
+        border: var(--color-accent);
     }
 </style>
