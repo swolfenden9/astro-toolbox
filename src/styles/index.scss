@@ -47,4 +47,19 @@ $primary-color-border: hsl();
       DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
   }
 
-  @import "lib"
+
+// classes
+
+.fill-screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg {
+  position: absolute;
+  z-index: -5;
+}
+
+.cosmo {
+  background: $cosmo-gradient;
+}
