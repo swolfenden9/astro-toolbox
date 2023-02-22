@@ -62,7 +62,7 @@
 }
 
 .darken {
-    filter: brightness(-20%);
+    filter: brightness(0.8);
 }
 
 .hero {
