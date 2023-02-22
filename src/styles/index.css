@@ -10,7 +10,7 @@
     --cosmo-purple: hsl(270, 82, 27);
     --cosmo-dark-blue: hsl(223, 36, 42);
     --cosmo-light-blue: hsl(191, 36, 42);
-    --cosmo-gradient: linear-gradient(to bottom, var(var(--cosmo-purple)) 0, var(var(--cosmo-dark-blue)) 80%, var(--cosmo-light-blue) 100%);
+    --cosmo-gradient: linear-gradient(to bottom, var(--cosmo-purple) 0, var(--cosmo-dark-blue) 80%, var(--cosmo-light-blue) 100%);
     
     /* style presets */
     /* primary */
