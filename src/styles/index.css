@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
 :root {
     --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
     --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
@@ -69,8 +71,6 @@
     padding: 0px 10px;
     flex-basis: 3fr 2fr;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
 
 .hero .section h1 {
     font-size: 160px;
