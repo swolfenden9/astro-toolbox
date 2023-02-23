@@ -73,23 +73,20 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 30px;
-    flex-basis: 3fr 2fr;
-    flex-wrap: wrap;
+    flex: 3fr 2fr;
 }
 
 .hero section h1 {
-    font-size: 120px;
-    line-height: 150px;
+    font-size: 10vw;
+    line-height: 100%;
     font-family: "Basic", Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .hero section h2 {
   margin: 0;
-}
-
-.hero section .link {
-  margin: 10px
+  width: 55vw;
+  font-size: 3vw;
 }
 
 .hero section.down {
@@ -97,6 +94,19 @@
 }
 
 .hero section svg {
-  width: 40vw;
-  height: 40vw;
+  width: 35vw;
+  height: 35vw;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero section h1 {
+    font-size: 20vw;
+  }
+  .hero section h2 {
+    width: 80vw;
+    font-size: 5vw;
+  }
 }
