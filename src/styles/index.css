@@ -74,6 +74,7 @@
     justify-content: space-between;
     padding: 0px 30px;
     flex-basis: 3fr 2fr;
+    flex-wrap: wrap;
 }
 
 .hero section h1 {
@@ -93,4 +94,9 @@
 
 .hero section.down {
   align-content: end;
+}
+
+.hero section svg {
+  width: 40vw;
+  height: 40vw;
 }
