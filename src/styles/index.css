@@ -82,3 +82,15 @@
     font-family: "Basic", Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
+.hero section h2 {
+  margin: 0;
+}
+
+.hero section .link {
+  margin: 10px
+}
+
+.hero section.down {
+  align-content: end;
+}
