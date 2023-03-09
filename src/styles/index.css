@@ -73,7 +73,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 30px;
-    flex: 3fr 2fr;
+    height: 90vh;
 }
 
 .hero section h1 {
@@ -98,6 +98,10 @@
   height: 35vw;
 }
 
+.down {
+  align-self: flex-end;
+}
+
 @media only screen and (max-width: 1200px) {
   .hero {
     flex-direction: column;
@@ -108,5 +112,11 @@
   .hero section h2 {
     width: 80vw;
     font-size: 5vw;
+  }
+  .hide-small {
+    display: none;
+  }
+  .down {
+    align-self: auto;
   }
 }
