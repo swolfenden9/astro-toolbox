@@ -3,5 +3,16 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="404" description="Page not found" keywords="404">
-    <h1>404</h1>
+    <div class="fill-screen">
+        <h1>We seem to have misplaced something.</h1>
+        <h2>There's nothing here. Quite strange.</h2>
+    </div>
 </Layout>
+
+<style>
+    div {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+</style>
